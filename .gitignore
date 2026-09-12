@@ -1,4 +1,4 @@
-# Prerequisites
+≈# Prerequisites
 *.d
 
 # Compiled Object files
@@ -67,4 +67,4 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
-hello
+2026_09_12_homework_1/hello
