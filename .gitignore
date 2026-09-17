@@ -68,3 +68,6 @@ vcpkg_installed/
 Testing/
 .cache/
 2026_09_12_homework_1/hello
+.DS_Store
+simple
+my_correct_sort
