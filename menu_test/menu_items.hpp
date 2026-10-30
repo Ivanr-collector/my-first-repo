@@ -5,7 +5,7 @@
 namespace ivanr {
     extern const MenuItem MAIN;
     extern const MenuItem EXIT;
-    extern const MenuItem FOOTBALL; // <-- ДОБАВИТЬ
+    extern const MenuItem FOOTBALL; 
     extern const MenuItem PROG;
 
     extern const MenuItem LANGS;

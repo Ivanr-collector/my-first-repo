@@ -31,13 +31,13 @@ const ivanr::MenuItem* ivanr::show_menu(const MenuItem* current) {
         return current;
     }
 
-    // Возвращаем выбранный пункт. Если это подменю, main вызовет его show_menu.
+    
     return current->children[user_input];
 }
 
 const ivanr::MenuItem* ivanr::exit(const MenuItem*) {
     std::cout << "Выход из программы." << std::endl;
-    return nullptr; // Возврат nullptr останавливает цикл в main
+    return nullptr; 
 }
 
 const ivanr::MenuItem* ivanr::go_back(const MenuItem* current) {
@@ -52,7 +52,7 @@ const ivanr::MenuItem* ivanr::go_back(const MenuItem* current) {
     return current;
 }
 
-// Действия (просто печатают текст и возвращают nullptr для выхода)
+
 const ivanr::MenuItem* ivanr::do_databases(const MenuItem*) {
     std::cout << "\n>> Базы данных (выполнено)\n" << std::endl;
     return nullptr; 
@@ -80,5 +80,5 @@ const ivanr::MenuItem* ivanr::do_algorithms(const MenuItem*) {
 
 const ivanr::MenuItem* ivanr::do_football(const MenuItem*) {
     std::cout << "\n>> Ура, футбол! (выполнено)\n" << std::endl;
-    return nullptr; // Завершаем программу
+    return nullptr; 
 }
