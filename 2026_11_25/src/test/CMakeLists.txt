@@ -1,0 +1,44 @@
+add_executable(test_bubble_basic test_bubble_basic.cpp)
+target_link_libraries(test_bubble_basic PRIVATE gtest sort)
+
+add_executable(test_bubble_flag test_bubble_flag.cpp)
+target_link_libraries(test_bubble_flag PRIVATE gtest sort)
+
+add_executable(test_bubble_optimized test_bubble_optimized.cpp)
+target_link_libraries(test_bubble_optimized PRIVATE gtest sort)
+
+add_executable(test_cocktail test_cocktail.cpp)
+target_link_libraries(test_cocktail PRIVATE gtest sort)
+
+add_executable(test_cocktail_advanced test_cocktail_advanced.cpp)
+target_link_libraries(test_cocktail_advanced PRIVATE gtest sort)
+
+add_executable(test_parity test_parity.cpp)
+target_link_libraries(test_parity PRIVATE gtest sort)
+
+add_executable(test_comb_gapped test_comb_gapped.cpp)
+target_link_libraries(test_comb_gapped PRIVATE gtest sort)
+
+add_executable(test_selection_min test_selection_min.cpp)
+target_link_libraries(test_selection_min PRIVATE gtest sort)
+
+add_executable(test_insertion_basic test_insertion_basic.cpp)
+target_link_libraries(test_insertion_basic PRIVATE gtest sort)
+
+add_executable(test_insertion_binary test_insertion_binary.cpp)
+target_link_libraries(test_insertion_binary PRIVATE gtest sort)
+
+add_executable(test_shell_gapped test_shell_gapped.cpp)
+target_link_libraries(test_shell_gapped PRIVATE gtest sort)
+
+add_test(test_bubble_basic test_bubble_basic)
+add_test(test_bubble_flag test_bubble_flag)
+add_test(test_bubble_optimized test_bubble_optimized)
+add_test(test_cocktail test_cocktail)
+add_test(test_cocktail_advanced test_cocktail_advanced)
+add_test(test_parity test_parity)
+add_test(test_comb_gapped test_comb_gapped)
+add_test(test_selection_min test_selection_min)
+add_test(test_insertion_basic test_insertion_basic)
+add_test(test_insertion_binary test_insertion_binary)
+add_test(test_shell_gapped test_shell_gapped)
